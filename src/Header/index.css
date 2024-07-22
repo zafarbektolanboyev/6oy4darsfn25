@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.header-container{ 
+    max-width: 1370px;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+.nav ul li{
+    font-size: 1.3rem;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.btns #lang{
+    background: transparent;
+    border: none;
+    color:white;
+    font-size: 1.3rem;
+}
+.btns button{
+    width: 113px;
+    padding: 8px 24px;
+    background-color: white;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    color: blue;
+    font-size: 1.1rem;
+}
+.btns #lang option{
+    color: black;
+}
